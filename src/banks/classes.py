@@ -3,7 +3,8 @@ from datetime import date
 
 #TODO: Add some test to check that the data is correct
 
-JSON_FILE = 'data.json'
+JSON_FILE = 'data/data.json'
+CDT_INTERVALS = ["90", "180", "360", "540"]
 
 # Useful classes for storing data
 class CDT:
@@ -41,7 +42,8 @@ class CDTInterface:
         self.days_dict = {}
 
     def add(self, left_days, interest):
-        self.days_dict[left_days] = interest
+        if left_days in CDT_INTERVALS:
+            self.days_dict[left_days] = interest
 
 class FIC:
     def __init__(self, bank, data={}):

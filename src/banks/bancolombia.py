@@ -1,6 +1,6 @@
 import pandas as pd
 import requests
-from banks.classes import CDT, FIC, FICInterface
+from banks.classes import CDT, FIC, FICInterface, CDT_INTERVALS
 
 ID = "BANCOL"
 REQUEST_URL = "https://www.bancolombia.com/personas/productos-servicios/inversiones/inversion-virtual"
@@ -44,8 +44,9 @@ def get_cdt():
         # Keep only first number from days range
         table.columns = table.columns.str.split('-').str[0]
 
-        # Column names as int
-        table.columns = table.columns.astype(int)
+
+        # Remove column that its name is not in the CDT_INTERVALS list
+        table = table[CDT_INTERVALS]
 
         """
         Parse Cells

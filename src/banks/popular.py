@@ -1,5 +1,5 @@
 import pandas as pd
-from banks.classes import CDT
+from banks.classes import CDT, CDT_INTERVALS
 
 ID = "POPULAR"
 REQUEST_URL = "https://www.bancopopular.com.co/wps/portal/bancopopular/inicio/informacion-interes/tasas"
@@ -28,6 +28,9 @@ try:
     table.replace(',', '.', regex=True, inplace=True)
     table = table.astype(float)
     table = table.apply(lambda x: round(x / 100,4))
+
+    # Remove column that its name is not in the CDT_INTERVALS list
+    table = table[CDT_INTERVALS]
 
     # Transpose table
     table = table.T
