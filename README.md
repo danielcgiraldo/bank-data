@@ -1,5 +1,11 @@
 # Bank Data JSON
 
+![GitHub contributors](https://img.shields.io/github/contributors/danielcgiraldo/bank-data-json)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/danielcgiraldo/bank-data-json/main)
+![GitHub issues](https://img.shields.io/github/issues/danielcgiraldo/bank-data-json)
+
+This project aims to provide a JSON file with information related to banks in Colombia. The information is scraped from the banks' websites and stored in a JSON file. The project is open-source and available on GitHub.
+
 ## Raw Data
 
 | Description                             | File        | URL                                                                                     |
@@ -50,10 +56,6 @@ Inside of your Astro project, you'll see the following folders and files:
 ## Contributing
 
 If you want to contribute to this project, please read the [CONTRIBUTING](CONTRIBUTING.md) file.
-
-## Contributors
-
-[![All Contributors](https://img.shields.io/github/all-contributors/danielcgiraldo/bank-data-json?color=ee8449&style=flat-square)](#contributors)
 
 ## Disclaimer
 
