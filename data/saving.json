@@ -3,15 +3,21 @@
         "name": "FlexiDigital",
         "bank": "Banco Finandina",
         "url": "https://www.bancofinandina.com/productos/ahorros/flexidigital",
-        "interest_rate": 0.0015
+        "interest_rate": 0.0015,
+        "disclaimer": false
     },
     {
         "name": "FlexiDigital de Ahorro",
         "bank": "Banco Finandina",
         "url": "https://www.bancofinandina.com/productos/ahorros/cuentas-de-ahorro-digitales/flexidigital-de-ahorro/",
-        "interest_rate": 0.13
+        "interest_rate": 0.13,
+        "disclaimer": true
     },
     {
-        
+        "name": "Cuenta de Ahorros",
+        "bank": "Banco Unión",
+        "url": "https://www.bancofinandina.com/productos/ahorros/cuentas-de-ahorro-digitales/flexidigital-de-ahorro/",
+        "interest_rate": 0.006,
+        "disclaimer": true
     }
 ]
