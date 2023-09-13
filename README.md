@@ -51,6 +51,17 @@ Inside of your Astro project, you'll see the following folders and files:
 
 If you want to contribute to this project, please read the [CONTRIBUTING](CONTRIBUTING.md) file.
 
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
 ## Disclaimer
 
 This project is entirely independent and has no affiliation, association, authorization, endorsement, or official connection with any of the banks mentioned above, or any of their subsidiaries or affiliates. All names of banks, as well as any related names, marks, emblems, and images, are registered trademarks of their respective owners.
