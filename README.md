@@ -18,12 +18,12 @@ This project aims to provide a JSON file with information related to banks in Co
 
 ### CDTs
 
-| Name            | ID        | Source                                                                                     |
-| :-------------- | :-------- | :----------------------------------------------------------------------------------------- |
-| Bancolombia     | BANCOL    | <https://www.bancolombia.com/personas/productos-servicios/inversiones/inversion-virtual>   |
-| Banco Finandina | FINANDINA | <https://www.bancofinandina.com/servicio-al-cliente/tasas-y-tarifas/tasas-vigentes/>       |
-| Banco Pibank    | PIBANK    | <https://www.pibank.co/cdt-pibank/>                                                        |
-| Banco Popular   | POPULAR   | <https://www.bancopopular.com.co/wps/portal/bancopopular/inicio/informacion-interes/tasas> |
+| Name                                                                                                                                                           | ID        | Source                                                                                     |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------- | :----------------------------------------------------------------------------------------- |
+| ![Bancolombia](https://www.bancolombia.com/contenthandler/!ut/p/digest!FxbzCGc9mgVIsAUrB3x0Gg/dav/fs-type1/themes/PersonasTheme/images/favicon.ico) Bancolombia | BANCOL    | <https://www.bancolombia.com/personas/productos-servicios/inversiones/inversion-virtual>   |
+| Banco Finandina                                                                                                                                                | FINANDINA | <https://www.bancofinandina.com/servicio-al-cliente/tasas-y-tarifas/tasas-vigentes/>       |
+| Banco Pibank                                                                                                                                                   | PIBANK    | <https://www.pibank.co/cdt-pibank/>                                                        |
+| Banco Popular                                                                                                                                                  | POPULAR   | <https://www.bancopopular.com.co/wps/portal/bancopopular/inicio/informacion-interes/tasas> |
 
 ### FICs
 
