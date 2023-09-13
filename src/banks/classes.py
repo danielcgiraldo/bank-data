@@ -1,6 +1,8 @@
 import json
 from datetime import date
 
+#TODO: Add some test to check that the data is correct
+
 JSON_FILE = 'data.json'
 
 # Useful classes for storing data
