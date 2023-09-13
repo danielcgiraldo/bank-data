@@ -2,11 +2,11 @@
 
 ## Raw Data
 
-| Description                             | File        | URL |
-| :-------------------------------------- | :---------- | :-- |
-| Information of related to a Bank ID     | bank.json   | <>  |
-| CDT and FIC interest rates (automatic)  | data.json   | <>  |
-| Saving Accounts interest rates (manual) | saving.json | <>  |
+| Description                             | File        | URL                                                                                     |
+| :-------------------------------------- | :---------- | :-------------------------------------------------------------------------------------- |
+| Information of related to a Bank ID     | bank.json   | <https://raw.githubusercontent.com/danielcgiraldo/bank-data-json/main/data/bank.json>   |
+| CDT and FIC interest rates (automatic)  | data.json   | <https://raw.githubusercontent.com/danielcgiraldo/bank-data-json/main/data/data.json>   |
+| Saving Accounts interest rates (manual) | saving.json | <https://raw.githubusercontent.com/danielcgiraldo/bank-data-json/main/data/saving.json> |
 
 ## Supported Banks
 
@@ -21,13 +21,12 @@
 
 ### FICs
 
-- Bancolombia
+#### Bancolombia
 
 | Name       | Source                                                                                                       |
 | :--------- | :----------------------------------------------------------------------------------------------------------- |
 | Fiducuenta | <https://www.bancolombia.com/personas/productos-servicios/inversiones/fondos-inversion-colectiva/fiducuenta> |
 | Fidurenta  | <https://www.bancolombia.com/personas/productos-servicios/inversiones/fondos-inversion-colectiva/fidurenta>  |
-
 
 ## Project Structure
 
