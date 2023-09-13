@@ -10,9 +10,9 @@ This project aims to provide a JSON file with information related to banks in Co
 
 | Description                             | File        | URL                                                                                     |
 | :-------------------------------------- | :---------- | :-------------------------------------------------------------------------------------- |
-| Information of related to a Bank ID     | bank.json   | <https://raw.githubusercontent.com/danielcgiraldo/bank-data-json/main/data/bank.json>   |
-| CDT and FIC interest rates (automatic)  | data.json   | <https://raw.githubusercontent.com/danielcgiraldo/bank-data-json/main/data/data.json>   |
-| Saving Accounts interest rates (manual) | saving.json | <https://raw.githubusercontent.com/danielcgiraldo/bank-data-json/main/data/saving.json> |
+| Bank information        | bank.json   | <https://raw.githubusercontent.com/danielcgiraldo/bank-data-json/main/data/bank.json>   |
+| CDT and FIC interest rates (automated)  | data.json   | <https://raw.githubusercontent.com/danielcgiraldo/bank-data-json/main/data/data.json>   |
+| Savings account interest rates (manual) | saving.json | <https://raw.githubusercontent.com/danielcgiraldo/bank-data-json/main/data/saving.json> |
 
 ## Supported Banks
 
