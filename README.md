@@ -53,14 +53,7 @@ If you want to contribute to this project, please read the [CONTRIBUTING](CONTRI
 
 ## Contributors
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
+[![All Contributors](https://img.shields.io/github/all-contributors/danielcgiraldo/bank-data-json?color=ee8449&style=flat-square)](#contributors)
 
 ## Disclaimer
 
