@@ -1,6 +1,6 @@
 import pandas as pd
 import requests
-from banks.classes import CDT, FIC, FICInterface, CDT_INTERVALS
+from src.banks.classes import CDT, FIC, FICInterface, CDT_INTERVALS
 
 ID = "BANCOL"
 REQUEST_URL = "https://www.bancolombia.com/personas/productos-servicios/inversiones/inversion-virtual"

@@ -1,5 +1,5 @@
 import pandas as pd
-from banks.classes import CDT
+from src.banks.classes import CDT
 import re
 
 ID = "FINANDINA"

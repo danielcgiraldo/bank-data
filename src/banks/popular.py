@@ -1,5 +1,5 @@
 import pandas as pd
-from banks.classes import CDT, CDT_INTERVALS
+from src.banks.classes import CDT, CDT_INTERVALS
 
 ID = "POPULAR"
 REQUEST_URL = "https://www.bancopopular.com.co/wps/portal/bancopopular/inicio/informacion-interes/tasas"

@@ -3,14 +3,19 @@
         "name": "FlexiDigital",
         "bank": "Banco Finandina",
         "url": "https://www.bancofinandina.com/productos/ahorros/flexidigital",
-        "interest_rate": 0.0015,
+        "interest_rate": {
+            "0": 0.0015
+        },
         "disclaimer": false
     },
     {
         "name": "FlexiDigital de Ahorro",
         "bank": "Banco Finandina",
         "url": "https://www.bancofinandina.com/productos/ahorros/cuentas-de-ahorro-digitales/flexidigital-de-ahorro/",
-        "interest_rate": 0.13,
+        "interest_rate": {
+            "0": "IBR",
+            "2000000000": 0.015
+        },
         "disclaimer": true
     },
     {

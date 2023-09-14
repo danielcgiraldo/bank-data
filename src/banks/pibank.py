@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-from banks.classes import CDT, CDTInterface
+from src.banks.classes import CDT, CDTInterface
 
 ID = "PIBANK"
 REQUEST_URL = "https://www.pibank.co/cdt-pibank/"

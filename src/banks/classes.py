@@ -3,7 +3,7 @@ from datetime import date
 
 #TODO: Add some test to check that the data is correct
 
-JSON_FILE = 'data/data.json'
+JSON_FILE = 'data/rates.json'
 CDT_INTERVALS = ["90", "180", "360", "540"]
 
 # Useful classes for storing data
