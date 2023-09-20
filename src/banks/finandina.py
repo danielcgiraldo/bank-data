@@ -56,7 +56,7 @@ try:
 
     table.columns = table.columns.astype(int)
 
-    cdt = CDT(ID, table.to_dict())
+    cdt = CDT(ID, "CDT digital", table.to_dict())
     cdt.write()
 
 except Exception as e:

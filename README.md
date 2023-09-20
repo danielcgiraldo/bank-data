@@ -16,6 +16,8 @@ This project aims to provide a JSON file with information related to banks in Co
 
 ## Supported Banks
 
+Obtain the official list of authorized banks in Colombia from [Banco de la República](https://www.banrep.gov.co/es/sistemas-pago/cenit/entidades-autorizadas).
+
 ### CDTs
 
 | Name            | ID        | Source                                                                                     |

@@ -8,8 +8,9 @@ CDT_INTERVALS = ["90", "180", "360", "540"]
 
 # Useful classes for storing data
 class CDT:
-    def __init__(self, bank, data={}):
+    def __init__(self, bank, cdt_name, data={}):
         self.bank_id = bank
+        self.cdt_name = cdt_name
         self.data = data
 
     def add(self, obj_money):
@@ -25,9 +26,13 @@ class CDT:
 
         if "CDT" not in current_data:
             current_data["CDT"] = {}
-        
-        # Add new data
-        current_data["CDT"][self.bank_id] = self.data
+
+        if self.bank_id not in current_data["CDT"]:
+            current_data["CDT"][self.bank_id] = {
+                self.cdt_name: self.data
+            }
+        else:
+            current_data["CDT"][self.bank_id][self.cdt_name] = self.data
         
         # Write new data
         with open(JSON_FILE, 'w') as f:

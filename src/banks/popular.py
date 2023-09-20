@@ -35,7 +35,7 @@ try:
     # Transpose table
     table = table.T
 
-    cdt = CDT(ID, table.to_dict())
+    cdt = CDT(ID,"CDT Desmaterializado", table.to_dict())
     cdt.write()
 
 except Exception as e:

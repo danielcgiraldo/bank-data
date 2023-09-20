@@ -60,7 +60,7 @@ def get_cdt():
         # Invert table
         table = table.T
 
-        cdt = CDT(ID, table.to_dict())
+        cdt = CDT(ID, "Inversión Virtual", table.to_dict())
         cdt.write()
 
     except Exception as e:

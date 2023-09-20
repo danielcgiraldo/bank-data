@@ -13,7 +13,7 @@ try:
 
     rates = soap.css.select(".hero-product .caja-pastillero span.super-text")
 
-    pibank = CDT(ID)
+    pibank = CDT(ID, "CDT Pibank")
     m = CDTInterface(100000)
     for rate in rates:
         m.add(rate.find("span").text.split(" ")[0], float(
