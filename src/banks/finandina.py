@@ -1,6 +1,5 @@
 import pandas as pd
 from src.banks.classes import CDT
-import re
 
 ID = "FINANDINA"
 REQUEST_URL = "https://www.bancofinandina.com/servicio-al-cliente/tasas-y-tarifas/tasas-vigentes/"
