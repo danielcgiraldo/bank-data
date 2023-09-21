@@ -37,6 +37,8 @@ with open(JSON_FILE, 'r') as f:
 
     response = session.get(REQUEST_URL, headers=headers)
 
+    response = session.get(REQUEST_URL, headers=headers)
+
     soup = BeautifulSoup(response.text, 'html.parser')
 
     soup.css.select("table table.CVTable tr")
@@ -52,7 +54,7 @@ with open(JSON_FILE, 'r') as f:
         "last_update": str(date.today()),
         "value": IBR
     }
-    
+
 # =====================================
 
     # Write new data
