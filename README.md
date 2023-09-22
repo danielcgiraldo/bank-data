@@ -26,6 +26,7 @@ Obtain the official list of authorized banks in Colombia from [Banco de la Repú
 | Banco Finandina | FINANDINA | <https://www.bancofinandina.com/servicio-al-cliente/tasas-y-tarifas/tasas-vigentes/>       |
 | Banco Pibank    | PIBANK    | <https://www.pibank.co/cdt-pibank/>                                                        |
 | Banco Popular   | POPULAR   | <https://www.bancopopular.com.co/wps/portal/bancopopular/inicio/informacion-interes/tasas> |
+| Ban100 | BAN100 | <https://www.ban100.com.co/productos/cdt> |
 
 ### FICs
 
